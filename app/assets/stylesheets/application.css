@@ -21,7 +21,23 @@
    color: #ffff00;
    text-align: center;
  }
+ .links {
+   font-family: fantasy;
+   color: #ffff00;
+   text-align: center;
+   background-color: grey;
+   border: 3px solid #ffb93a;
+ }
 .dog-individual {
+  background-color: grey;
+  text-align: center;
+  border: 3px solid #ffb93a;
+  margin: 100px;
+  font-family: fantasy;
+  color: #ffff00;
+}
+
+.cat-individual {
   background-color: grey;
   text-align: center;
   border: 3px solid #ffb93a;

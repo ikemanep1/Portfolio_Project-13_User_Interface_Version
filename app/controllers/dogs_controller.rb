@@ -13,7 +13,6 @@ class DogsController < ApplicationController
   # GET /dogs/1.json
   def show
     @dog = HTTParty.get('http://localhost:3000/dogs/'+params[:id])
-    # binding.pry
     :show
   end
 

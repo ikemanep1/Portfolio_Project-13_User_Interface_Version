@@ -13,7 +13,6 @@ class CatsController < ApplicationController
   # GET /cats/1.json
   def show
     @cat = HTTParty.get('http://localhost:3000/cats/'+params[:id])
-    # binding.pry
     :show
   end
 

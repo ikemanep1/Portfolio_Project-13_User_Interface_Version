@@ -1,0 +1,17 @@
+<h1>Cats!</h1>
+
+<div class="links">
+  <a class="dog-link" href="/">Want to look at some dogs?</a>
+</div>
+
+<div class="cat-list">
+  <% @cats.each do |cat| %>
+  <div class="cat-individual">
+    <ul>
+      <li><%= cat.fetch("name") %></li>
+      <li><%= cat.fetch("breed") %></li>
+      <li><%= cat.fetch("age") %></li>
+    </ul>
+  </div>
+
+  <% end %>
