@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   background-color: #b30000;
+ }
+ h1 {
+   font-family: fantasy;
+   color: #ffff00;
+   text-align: center;
+ }
+.dog-individual {
+  background-color: grey;
+  text-align: center;
+  border: 3px solid #ffb93a;
+  margin: 100px;
+  font-family: fantasy;
+  color: #ffff00;
+}

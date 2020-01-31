@@ -1,0 +1,14 @@
+<h1>Dogs!</h1>
+
+
+<div class="dog-list">
+  <% @dogs.each do |dog| %>
+  <div class="dog-individual">
+    <ul>
+      <li><%= dog.fetch("name") %></li>
+      <li><%= dog.fetch("breed") %></li>
+      <li><%= dog.fetch("age") %></li>
+    </ul>
+  </div>
+
+  <% end %>
