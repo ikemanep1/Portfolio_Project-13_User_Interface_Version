@@ -7,8 +7,8 @@
 <div class="cat-list">
   <% @cats.each do |cat| %>
   <div class="cat-individual">
+    <a href="/cats/<%=cat.fetch("id")%>"><%= cat.fetch("name") %></a>
     <ul>
-      <li><%= cat.fetch("name") %></li>
       <li><%= cat.fetch("breed") %></li>
       <li><%= cat.fetch("age") %></li>
     </ul>

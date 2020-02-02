@@ -1,0 +1,10 @@
+<div class="links">
+  <a class="cat-link" href="/cats">Want to look at some cats?</a>
+</div>
+<div class="cat-individual">
+  <ul>
+    <li><%= @cat.fetch("name") %></li>
+    <li><%= @cat.fetch("breed") %></li>
+    <li><%= @cat.fetch("age") %></li>
+  </ul>
+</div>
