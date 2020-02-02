@@ -2,12 +2,6 @@
 <div class="links">
   <a class="cat-link" href="cats/">Want to look at some cats?</a>
 </div>
-<div class="search">
-  <%= form_tag dogs_path, :method => 'get' do %>
-  <%= text_field_tag :name, params[:name] %>
-  <%= submit_tag "Search", :name => nil %>
-  <% end %>
-</div>
 
 <div class="dog-list">
   <% @dogs.each do |dog| %>
