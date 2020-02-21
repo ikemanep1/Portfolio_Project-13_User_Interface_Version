@@ -17,13 +17,6 @@ _This program is the user-interface portion of the animal shelter API project. T
 
 # Known Bugs
 
-_Note: Ike has spent the past hour working with psuedo-theory code to apply monday's further exploration functionality to his project. The code that has been applied is breaking the rest of the app, so what he has is displayed below:
-
-@dogs = Dog.paginate(page: params[:page], per_page: 30)
-
-<%= will_paginate @dogs %>
-_
-
 # specs
 
 1) the program will list all items, divided by categories, in the API.
